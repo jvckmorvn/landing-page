@@ -4,6 +4,11 @@
 /* Fontawesome */
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 
+/* CSS files */
+@import url('components/banner.css');
+@import url('components/how-it-works.css');
+@import url('components/footer.css');
+
 /* Utilities */
 body {
   margin: 0;
@@ -20,3 +25,8 @@ a {
 
 /* Custom design below! */
 
+.container {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #eddbc2b0;
+}

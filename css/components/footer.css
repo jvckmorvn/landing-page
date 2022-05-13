@@ -1,0 +1,27 @@
+.footer {
+  width: 20%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid tan;
+}
+
+.links i {
+  padding: 24px 0px 10px 0px;
+  color: rgba(0, 0, 0, 0.66);
+  font-size: 20pt;
+  transition: 0.2s ease;
+}
+
+.links i:hover {
+  color: hsla(0, 0%, 0%, 0.9);
+}
+
+.footer p {
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+}

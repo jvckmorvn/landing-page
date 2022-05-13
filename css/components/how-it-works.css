@@ -1,0 +1,31 @@
+.how-it-works {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(210, 180, 140, 0.4);
+}
+
+.column {
+  width: 32%;
+  text-align: center;
+  border: 2px solid rgba(210, 180, 140, 0.9);
+  border-radius: 4px;
+  background-color: #f7f7f7;
+}
+
+.column h3 {
+  color: rgba(0, 0, 0, 0.7);
+  padding-top: 8px;
+  letter-spacing: 10px;
+}
+
+.column p {
+  padding: 0px 100px;
+  line-height: 180%;
+  color: rgba(0, 0, 0, 0.66);
+}
+
+.column i {
+  padding: 24px 0px 48px 0px;
+  color: rgba(0, 0, 0, 0.66);
+  font-size: 22pt;
+}
